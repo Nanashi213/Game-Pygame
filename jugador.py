@@ -32,6 +32,7 @@ class Jugador():
         self.salto=False #En salto True
         self.direccion = True # True - derecha, False Izquierda
         self.cuentaSalto = 10
+        #Fuente : https://www.gameart2d.com/freebies.html
         self.caminar = [pygame.transform.scale(pygame.image.load('recursos/sprites/jugador/Walk (1).png'),(100,100)),
                         pygame.transform.scale(pygame.image.load('recursos/sprites/jugador/Walk (2).png'),(100,100)),
                         pygame.transform.scale(pygame.image.load('recursos/sprites/jugador/Walk (3).png'),(100,100)),
